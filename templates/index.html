@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Walkie Talkie</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Walkie Talkie</h1>
+    <input id="username" placeholder="Enter your name" />
+    <input id="room" placeholder="Enter room ID" />
+    <button onclick="joinRoom()">Join Room</button>
+    <button id="pttBtn" disabled>🎤 Hold to Talk</button>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
